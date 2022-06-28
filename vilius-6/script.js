@@ -1,0 +1,11 @@
+let random1 = Math.floor(Math.random() * (25 - 5 + 1) + 5)
+let random2 = Math.floor(Math.random() * (25 - 5 + 1) + 5)
+let random3 = random1 + random2
+let random4 = random2 + random3
+let random5 = random3 + random4
+let random6 = random4 + random5
+let random7 = random5 + random6
+let random8 = random6 + random7
+let random9 = random7 + random8
+let random10 = random8 + random9
+document.querySelector('.app').textContent = [random1, random2, random3, random4, random5, random6, random7, random8, random9, random10].join(' ')
